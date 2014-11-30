@@ -5,7 +5,7 @@ var app = angular.module('unicornSiteManager', [
     'firebase'
 ]);
 
-app.constant('FIREBASE_URI', 'PUT YOUR FIREBASE ENDPOINT HERE');
+app.constant('FIREBASE_URI', 'https://falafelmgr.firebaseio.com/');
 
 app.config(function ($routeProvider) {
     $routeProvider.
