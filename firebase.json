@@ -1,0 +1,10 @@
+{
+  "firebase": "falafelmgr",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rules": "config/security-rules.json"
+}
